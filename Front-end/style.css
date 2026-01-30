@@ -1,0 +1,30 @@
+.login-box {
+    margin-top: 100px;
+    margin-left:300px;
+    margin-right: 300px;
+    padding: 50px;
+    background-color: rgb(94, 94, 223);
+  
+      border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-text {
+    color: white;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(94, 94, 223);
+    border-radius: 15px;
+    color: white;
+    padding: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 30px;
+}

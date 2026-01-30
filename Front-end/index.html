@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section class="login">
+        <div class="login-box">
+            <div class="login-text">
+                <h1>LOG IN</h1>
+            </div>
+            <input id="username" placeholder="username" />
+            <input id="password" type="password" placeholder="password" />
+            <button onclick="login()">Login</button>
+        </div>
+    </section>
+    <div class="layout">
+        <div class="top-dashboard-text">
+            <aside class="sidebar">My Dashboard</aside>
+        </div>
+        <main class="main">
+            <header class="header">Dashboard Result</header>
+            <section id="content" class="content">Loading...</section>
+        </main>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
